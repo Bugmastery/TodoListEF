@@ -1,5 +1,44 @@
+# Build output
 bin/
 obj/
-/packages/
-riderModule.iml
+out/
+
+# Rider / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
 /_ReSharper.Caches/
+riderModule.iml
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+/packages/
+/*.nuget/
+
+# Database
+*.db
+*.mdf
+*.ldf
+
+# VSCode
+.vscode/
+
+# Dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# OS generated files
+.DS_Store
+Thumbs.db
